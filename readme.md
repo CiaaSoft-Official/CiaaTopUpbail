@@ -1,32 +1,32 @@
 <div align="center">
 
 <h1>
-  <img src="https://img.shields.io/badge/⚡-AstraBail-0f0f0f?style=for-the-badge&labelColor=0f0f0f&color=6c63ff" height="45" alt="AstraBail" />
+  <img src="https://img.shields.io/badge/⚡-CiaaTopUpbail-0f0f0f?style=for-the-badge&labelColor=0f0f0f&color=6c63ff" height="45" alt="CiaaTopUpbail" />
 </h1>
 
 <p align="center">
   <strong>Professional WhatsApp Web API Library — Built for the Next Generation of Bots</strong><br/>
-  <sub>Fork-optimized from Baileys · Powered by Astra-Libsignal · Maintained by <a href="https://github.com/Danimaru-ze">Danimaru-ze</a></sub>
+  <sub>Fork-optimized from Baileys · Powered by CiaaTopUp-Libsignal · Maintained by <a href="https://github.com/ciaatopupofficial">CiaaTopUp-Official</a></sub>
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/astrabail">
-    <img src="https://img.shields.io/npm/v/astrabail.svg?style=flat-square&label=npm&color=6c63ff&logo=npm&logoColor=white" alt="npm version" />
+  <a href="https://www.npmjs.com/package/ciaatopupbail">
+    <img src="https://img.shields.io/npm/v/ciaatopupbail.svg?style=flat-square&label=npm&color=6c63ff&logo=npm&logoColor=white" alt="npm version" />
   </a>
-  <a href="https://www.npmjs.com/package/astrabail">
-    <img src="https://img.shields.io/npm/dw/astrabail.svg?style=flat-square&label=downloads&color=38bdf8&logo=npm&logoColor=white" alt="downloads" />
+  <a href="https://www.npmjs.com/package/ciaatopupbail">
+    <img src="https://img.shields.io/npm/dw/ciaatopupbail.svg?style=flat-square&label=downloads&color=38bdf8&logo=npm&logoColor=white" alt="downloads" />
   </a>
-  <a href="https://github.com/Danimaru-ze/AstraBail/blob/main/LICENSE">
-    <img src="https://img.shields.io/npm/l/astrabail.svg?style=flat-square&label=license&color=22c55e" alt="license" />
+  <a href="https://github.com/ciaatopupofficial/CiaaTopUpbail/blob/main/LICENSE">
+    <img src="https://img.shields.io/npm/l/CiaaTopUpbail.svg?style=flat-square&label=license&color=22c55e" alt="license" />
   </a>
-  <a href="https://github.com/Danimaru-ze/AstraBail">
-    <img src="https://img.shields.io/badge/GitHub-AstraBail-181717?style=flat-square&logo=github" alt="github" />
+  <a href="https://github.com/ciaatopupofficial/CiaaTopUpbail">
+    <img src="https://img.shields.io/badge/GitHub-CiaaTopUpbail-181717?style=flat-square&logo=github" alt="github" />
   </a>
   <a href="https://whatsapp.com/channel/0029Vazo6KM8kyyJ4eWh3A25">
     <img src="https://img.shields.io/badge/WhatsApp-Channel-25D366?style=flat-square&logo=whatsapp&logoColor=white" alt="WhatsApp Channel" />
   </a>
-  <a href="https://github.com/Danimaru-ze/astra-libsignal">
-    <img src="https://img.shields.io/badge/Crypto_Engine-Astra_Libsignal-8A2BE2?style=flat-square" alt="Astra Libsignal" />
+  <a href="https://github.com/ciaatopupofficial/ciaatopup-libsignal">
+    <img src="https://img.shields.io/badge/Crypto_Engine-CiaaTopUp_Libsignal-8A2BE2?style=flat-square" alt="CiaaTopUp Libsignal" />
   </a>
 </p>
 
@@ -34,9 +34,9 @@
 
 ---
 
-## ✨ Tentang AstraBail
+## ✨ Tentang CiaaTopUpbail
 
-**AstraBail** adalah library WhatsApp Web API profesional yang dioptimalkan dari basis *Baileys*. Dikelola oleh **Danimaru-ze**, library ini dirancang untuk performa tinggi, stabilitas maksimal, dan kemudahan integrasi ke berbagai proyek bot WhatsApp modern. Kini ditenagai penuh oleh **astra-libsignal** untuk proses enkripsi tingkat tinggi.
+**CiaaTopUpbail** adalah library WhatsApp Web API profesional yang dioptimalkan dari basis *Baileys*. Dikelola oleh **CiaaTopUp-Official**, library ini dirancang untuk performa tinggi, stabilitas maksimal, dan kemudahan integrasi ke berbagai proyek bot WhatsApp modern. Kini ditenagai penuh oleh **CiaaTopUp-libsignal** untuk proses enkripsi tingkat tinggi.
 
 ### 🚀 Fitur Unggulan
 
@@ -54,9 +54,9 @@
 ## 📦 Instalasi
 
 ```bash
-npm install astrabail
+npm install ciaatopupbail
 # atau
-yarn add astrabail
+yarn add ciaatopupbail
 ```
 
 ---
@@ -66,7 +66,7 @@ yarn add astrabail
 ### Instalasi & Koneksi Dasar
 
 ```javascript
-const { default: makeWASocket, useMultiFileAuthState } = require("astrabail")
+const { default: makeWASocket, useMultiFileAuthState } = require("ciaatopupbail")
 
 async function startBot() {
   const { state, saveCreds } = await useMultiFileAuthState('./session')
@@ -79,7 +79,7 @@ async function startBot() {
   sock.ev.on('creds.update', saveCreds)
 
   sock.ev.on('connection.update', ({ connection }) => {
-    if (connection === 'open') console.log('✅ AstraBail: Bot Connected!')
+    if (connection === 'open') console.log('✅ CiaaTopUpbail: Bot Connected!')
   })
 }
 
@@ -93,9 +93,9 @@ startBot()
 ```javascript
 await sock.sendMessage('6281234567890@s.whatsapp.net', {
   stickerPack: {
-    name: 'AstraBail Sticker',
-    publisher: 'AstraBail',
-    description: 'Sticker pack custom dari AstraBail',
+    name: 'CiaaTopUpbail Sticker',
+    publisher: 'CiaaTopUpbail',
+    description: 'Sticker pack custom dari CiaaTopUpbail',
     cover: { url: './assets/cover.png' },
     stickers: [
       { sticker: { url: './assets/sticker-1.webp' }, emojis: ['😀'] },
@@ -243,14 +243,14 @@ await sock.sendMessage('6281234567890@s.whatsapp.net', {
     - [Send Broadcast & Stories](#send-broadcast--stories)
     - [Query a Broadcast List's Recipients & Name](#query-a-broadcast-lists-recipients--name)
 - [Writing Custom Functionality](#writing-custom-functionality)
-    - [Enabling Debug Level in AstraBail Logs](#enabling-debug-level-in-AstraBail-logs)
+    - [Enabling Debug Level in CiaaTopUpbail Logs](#enabling-debug-level-in-CiaaTopUpbail-logs)
     - [How Whatsapp Communicate With Us](#how-whatsapp-communicate-with-us)
     - [Register a Callback for Websocket Events](#register-a-callback-for-websocket-events)
 
 <a id="connecting-account"></a>
 ## 🔗 Menghubungkan Akun
 
-WhatsApp provides a multi-device API that allows AstraBail to be authenticated as a second WhatsApp client by scanning a **QR code** or **Pairing Code** with WhatsApp on your phone.
+WhatsApp provides a multi-device API that allows CiaaTopUpbail to be authenticated as a second WhatsApp client by scanning a **QR code** or **Pairing Code** with WhatsApp on your phone.
 
 <a id="starting-socket-with-qr-code"></a>
 ### 🔹 Memulai Socket dengan Kode QR
@@ -259,7 +259,7 @@ WhatsApp provides a multi-device API that allows AstraBail to be authenticated a
 > You can customize browser name if you connect with **QR-CODE**, with `Browser` constant, we have some browsers config, **see [here](https://baileys.whiskeysockets.io/types/BrowsersMap.html)**
 
 ```javascript
-const { default: makeWASocket } = require("astrabail")
+const { default: makeWASocket } = require("ciaatopupbail")
 
 
 const sock = makeWASocket({
@@ -281,7 +281,7 @@ If the connection is successful, you will see a QR code printed on your terminal
 The phone number can't have `+` or `()` or `-`, only numbers, you must provide country code
 
 ```javascript
-const { default: makeWASocket } = require("astrabail")
+const { default: makeWASocket } = require("ciaatopupbail")
 
 const sock = makeWASocket({
     // can provide additional config here
@@ -308,7 +308,7 @@ if (!sock.authState.creds.registered) {
 ### 🔹 Menerima Riwayat Penuh
 
 1. Set `syncFullHistory` as `true`
-2. AstraBail, by default, use chrome browser config
+2. CiaaTopUpbail, by default, use chrome browser config
     - If you'd like to emulate a desktop connection (and receive more message history), this browser setting to your Socket config:
 
 ```javascript
@@ -325,7 +325,7 @@ const sock = makeWASocket({
 
 <a id="caching-group-metadata-recommended"></a>
 ### 🧠 Caching Metadata Grup (Direkomendasikan)
-- If you use AstraBail for groups, we recommend you to set `cachedGroupMetadata` in socket config, you need to implement a cache like this:
+- If you use CiaaTopUpbail for groups, we recommend you to set `cachedGroupMetadata` in socket config, you need to implement a cache like this:
 
     ```javascript
     const groupCache = new NodeCache({stdTTL: 5 * 60, useClones: false})
@@ -368,10 +368,10 @@ You obviously don't want to keep scanning the QR code every time you want to con
 
 So, you can load the credentials to log back in:
 ```javascript
-const makeWASocket = require("astrabail").default;
-const { useMultiFileAuthState } = require("astrabail");
+const makeWASocket = require("ciaatopupbail").default;
+const { useMultiFileAuthState } = require("ciaatopupbail");
 
-const { state, saveCreds } = await useMultiFileAuthState('auth_info_AstraBail')
+const { state, saveCreds } = await useMultiFileAuthState('auth_info_CiaaTopUpbail')
 
 // will use the given state to connect
 // so if valid credentials are available -- it'll connect without QR
@@ -390,11 +390,11 @@ sock.ev.on('creds.update', saveCreds)
 <a id="handling-events"></a>
 ## 📡 Penanganan Event
 
-- AstraBail uses the EventEmitter syntax for events.
+- CiaaTopUpbail uses the EventEmitter syntax for events.
 They're all nicely typed up, so you shouldn't have any issues with an Intellisense editor like VS Code.
 
 > [!IMPORTANT]
-> **The events are [these](https://baileys.whiskeysockets.io/types/AstraBailEventMap.html)**, it's important you see all events
+> **The events are [these](https://baileys.whiskeysockets.io/types/CiaaTopUpbailEventMap.html)**, it's important you see all events
 
 You can listen to these events like this:
 ```javascript
@@ -411,12 +411,12 @@ sock.ev.on('messages.upsert', ({ messages }) => {
 > This example includes basic auth storage too
 
 ```javascript
-const makeWASocket = require("astrabail").default;
-const { DisconnectReason, useMultiFileAuthState } = require("astrabail");
+const makeWASocket = require("ciaatopupbail").default;
+const { DisconnectReason, useMultiFileAuthState } = require("ciaatopupbail");
 const Boom = require('@hapi/boom');
 
 async function connectToWhatsApp () {
-    const { state, saveCreds } = await useMultiFileAuthState('auth_info_AstraBail')
+    const { state, saveCreds } = await useMultiFileAuthState('auth_info_CiaaTopUpbail')
     const sock = makeWASocket({
         // can provide additional config here
         auth: state,
@@ -489,7 +489,7 @@ sock.ev.on('messages.update', event => {
 <a id="handling-events"></a>
 ## 💾 Mengimplementasikan Data Store
 
-- AstraBail does not come with a defacto storage for chats, contacts, or messages. However, a simple in-memory implementation has been provided. The store listens for chat updates, new messages, message updates, etc., to always have an up-to-date version of the data.
+- CiaaTopUpbail does not come with a defacto storage for chats, contacts, or messages. However, a simple in-memory implementation has been provided. The store listens for chat updates, new messages, message updates, etc., to always have an up-to-date version of the data.
 
 > [!IMPORTANT]
 > I highly recommend building your own data store, as storing someone's entire chat history in memory is a terrible waste of RAM.
@@ -497,16 +497,16 @@ sock.ev.on('messages.update', event => {
 It can be used as follows:
 
 ```javascript
-const makeWASocket = require("astrabail").default;
-const { makeInMemoryStore } = require("astrabail");
+const makeWASocket = require("ciaatopupbail").default;
+const { makeInMemoryStore } = require("ciaatopupbail");
 // the store maintains the data of the WA connection in memory
 // can be written out to a file & read from it
 const store = makeInMemoryStore({ })
 // can be read from a file
-store.readFromFile('./AstraBail_store.json')
+store.readFromFile('./CiaaTopUpbail_store.json')
 // saves the state to a file every 10s
 setInterval(() => {
-    store.writeToFile('./AstraBail_store.json')
+    store.writeToFile('./CiaaTopUpbail_store.json')
 }, 10_000)
 
 const sock = makeWASocket({ })
@@ -582,7 +582,7 @@ await conn.upswgc(m.chat, {
 ### Kirim audio (voice note) ke status WhatsApp
 ```javascript
 await conn.upswgc(m.chat, {
-        audio: { url: "https://raw.githubusercontent.com/Danimaru-ze/AstraBail/main/assets/sample.opus" },
+        audio: { url: "https://raw.githubusercontent.com/ciaatopupofficial/CiaaTopUpbail/main/assets/sample.opus" },
         caption : "apasi"
       });
 ```
@@ -617,7 +617,7 @@ dengan broadcast: true seperti dijelaskan pada bagian sebelumnya.`
 // send a buttons message!
 sock.sendMessage(jid, {
      text: "Hello World !",
-     footer: "AstraBail - 2026",
+     footer: "CiaaTopUpbail - 2026",
      buttons: [
      {
      buttonId: `🚀`, 
@@ -637,7 +637,7 @@ sock.sendMessage(jid, {
 ```javascript
 sock.sendMessage(jid, {
   text: "Hello Wolrd !;", 
-  footer: "© Danimaru-ze Dev",
+  footer: "© CiaaTopUp-Official Dev",
   buttons: [
   {
     buttonId: '.tes',
@@ -665,7 +665,7 @@ sock.sendMessage(jid, {
         title: 'message',
         sections: [
           {
-            title: 'AstraBail - 2026',
+            title: 'CiaaTopUpbail - 2026',
             highlight_label: '😜',
             rows: [
               {
@@ -704,7 +704,7 @@ let msg = generateWAMessageFromContent(m.chat, {
        },
        interactiveMessage: proto.Message.InteractiveMessage.create({
          body: proto.Message.InteractiveMessage.Body.create({
-           text: "Danimaru-ze"
+           text: "CiaaTopUp-Official"
          }),
          footer: proto.Message.InteractiveMessage.Footer.create({
            text: "Bot"
@@ -1143,14 +1143,14 @@ await sock.sendMessage(
 ### 💬 Mengirim Pesan with Link Previews
 
 1. By default, wa does not have link generation when sent from the web
-2. AstraBail has a function to generate the content for these link previews
+2. CiaaTopUpbail has a function to generate the content for these link previews
 3. To enable this function's usage, add `link-preview-js` as a dependency to your project with `yarn add link-preview-js`
 4. Send a link:
 ```javascript
 await sock.sendMessage(
     jid,
     {
-        text: 'Hi, this was sent using https://github.com/whiskeysockets/AstraBail'
+        text: 'Hi, this was sent using https://github.com/whiskeysockets/CiaaTopUpbail'
     }
 )
 ```
@@ -1162,7 +1162,7 @@ Sending media (video, stickers, images) is easier & more efficient than ever.
 > [!NOTE]
 > In media messages, you can pass `{ stream: Stream }` or `{ url: Url }` or `Buffer` directly, you can see more [here](https://baileys.whiskeysockets.io/types/WAMediaUpload.html)
 
-- When specifying a media url, AstraBail never loads the entire buffer into memory; it even encrypts the media as a readable stream.
+- When specifying a media url, CiaaTopUpbail never loads the entire buffer into memory; it even encrypts the media as a readable stream.
 
 > [!TIP]
 > It's recommended to use Stream or Url to save memory
@@ -1291,7 +1291,7 @@ await sock.sendMessage(jid, {
 If you want to save the media you received
 ```javascript
 const { createWriteStream } = require('fs');
-const { downloadMediaMessage, getContentType } = require("astrabail");
+const { downloadMediaMessage, getContentType } = require("ciaatopupbail");
 
 sock.ev.on('messages.upsert', async ({ [m] }) => {
     if (!m.message) return // if there is no text or media message
@@ -1306,7 +1306,7 @@ sock.ev.on('messages.upsert', async ({ [m] }) => {
             { },
             {
                 logger,
-                // pass this so that AstraBail can request a reupload of media
+                // pass this so that CiaaTopUpbail can request a reupload of media
                 // that has been deleted
                 reuploadRequest: sock.updateMediaMessage
             }
@@ -1341,7 +1341,7 @@ await sock.rejectCall(callId, callFrom)
 <a id="handling-events"></a>
 ### 📖 Membaca Pesan
 - A set of message [keys](https://baileys.whiskeysockets.io/types/WAMessageKey.html) must be explicitly marked read now.
-- You cannot mark an entire 'chat' read as it were with AstraBail Web.
+- You cannot mark an entire 'chat' read as it were with CiaaTopUpbail Web.
 This means you have to keep track of unread messages.
 
 ```javascript
@@ -1365,7 +1365,7 @@ await sock.sendPresenceUpdate('available', jid)
 ```
 
 > [!NOTE]
-> If a desktop client is active, WA doesn't send push notifications to the device. If you would like to receive said notifications -- mark your AstraBail client offline using `sock.sendPresenceUpdate('unavailable')`
+> If a desktop client is active, WA doesn't send push notifications to the device. If you would like to receive said notifications -- mark your CiaaTopUpbail client offline using `sock.sendPresenceUpdate('unavailable')`
 
 <a id="handling-events"></a>
 ## 🗂️ Memodifikasi Chat
@@ -1844,10 +1844,10 @@ console.log (`list name: ${bList.name}, recps: ${bList.recipients}`)
 
 <a id="handling-events"></a>
 ## ✍️ Menulis Fungsionalitas Kustom
-AstraBail is written with custom functionality in mind. Instead of forking the project & re-writing the internals, you can simply write your own extensions.
+CiaaTopUpbail is written with custom functionality in mind. Instead of forking the project & re-writing the internals, you can simply write your own extensions.
 
 <a id="handling-events"></a>
-### 🐛 Mengaktifkan Level Debug di Log AstraBail
+### 🐛 Mengaktifkan Level Debug di Log CiaaTopUpbail
 First, enable the logging of unhandled messages from WhatsApp by setting:
 ```javascript
 const sock = makeWASocket({
@@ -1931,8 +1931,8 @@ Gunakan secara bertanggung jawab dan hindari aktivitas ilegal atau penyalahgunaa
 <a id="handling-events"></a>
 ## Lisensi
 
-📘 *Documentation powered by AstraBail*  
-🧑‍💻 **Modified and Presented by AstraBail**
+📘 *Documentation powered by CiaaTopUpbail*  
+🧑‍💻 **Modified and Presented by CiaaTopUpbail**
 
 <a id="kirim-sticker-pack"></a>
 ## Sticker Pack Message
