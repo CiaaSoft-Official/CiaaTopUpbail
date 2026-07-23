@@ -1,10 +1,10 @@
 {
-  "name": "astrabail",
-  "version": "1.1.1",
+  "name": "ciaatopupbail",
+  "version": "1.0.1",
   "update": "25 April 2026",
   "description": "Professional Whatsapp Web API Library",
   "keywords": [
-    "astra",
+    "ciaatopup",
     "whatsapp",
     "whatsapp-api",
     "whatsapp-web",
@@ -55,7 +55,7 @@
     "cache-manager": "^5.7.6",
     "cheerio": "^1.0.0-rc.10",
     "libphonenumber-js": "^1.10.20",
-    "libsignal": "github.com/ciaatopupofficial/CiaaTopUpbail/libsignal",
+    "libsignal": "^2.0.1",
     "lodash": "^4.17.21",
     "music-metadata": "^7.12.3",
     "pino": "^9.6",
