@@ -1,6 +1,6 @@
 {
   "name": "ciaatopupbail",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "update": "25 April 2026",
   "description": "Professional Whatsapp Web API Library",
   "keywords": [
@@ -15,7 +15,7 @@
   "homepage": "https://whatsapp.com/channel/0029VbAe7IPJENy4YujdxF3S",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ciaatopupofficial/CiaaTopUpbail"
+    "url": "https://github.com/ciaatopupofficial/CiaaTopUpBail"
   },
   "funding": {
     "type": "youtube",
